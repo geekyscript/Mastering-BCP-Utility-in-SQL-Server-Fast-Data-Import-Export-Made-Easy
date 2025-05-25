@@ -44,13 +44,3 @@ VALUES
 GO
 
 Select * from Customers;
-
-CREATE TABLE Employee (
-    EmployeeID INT IDENTITY(1,1) PRIMARY KEY,
-    FirstName NVARCHAR(50) NOT NULL,
-    LastName NVARCHAR(50) NOT NULL,
-    Email NVARCHAR(100) UNIQUE,
-    PhoneNumber NVARCHAR(20),
-    City NVARCHAR(50)
-);
-GO
